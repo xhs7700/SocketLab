@@ -1,0 +1,90 @@
+{
+  "examples": [
+    {
+      "type": "get_bookmark_single",
+      "data": {
+        "status": "ok",
+        "type": "get_bookmark_single",
+        "content": {
+          "bookmark_id": "1",
+          "uid": "xhs7700",
+          "book_id": "1",
+          "name": "bookmark 1",
+          "chapter_id": "2",
+          "page_num": "3"
+        }
+      }
+    },
+    {
+      "type": "get_bookmark_single",
+      "data": {
+        "status": "error",
+        "type": "bookmark not exist",
+        "content": {}
+      }
+    },
+    {
+      "type": "get_bookmark_user",
+      "data": {
+        "status": "ok",
+        "type": "get_bookmark_user",
+        "content": [
+          {
+            "bookmark_id": "1",
+            "book_id": "1",
+            "name": "bookmark 1",
+            "chapter_id": "2",
+            "page_num": "3"
+          }
+        ]
+      }
+    },
+    {
+      "type": "get_bookmark_user",
+      "data": {
+        "status": "error",
+        "type": "user not exist",
+        "content": []
+      }
+    },
+    {
+      "type": "get_bookmark_user_book",
+      "data": {
+        "status": "ok",
+        "type": "get_bookmark_user_book",
+        "content": [
+          {
+            "bookmark_id": "1",
+            "name": "bookmark 1",
+            "chapter_id": "2",
+            "page_num": "3"
+          }
+        ]
+      }
+    },
+    {
+      "type": "get_bookmark_user_book",
+      "data": {
+        "status": "error",
+        "type": "user_id not exist/book_id not exist",
+        "content": []
+      }
+    },
+    {
+      "type": "get_bookmark_id",
+      "data": {
+        "status": "ok",
+        "type": "get_bookmark_id",
+        "content": 1
+      }
+    },
+    {
+      "type": "get_bookmark_id",
+      "data": {
+        "status": "error",
+        "type": "ID number is full",
+        "content": -1
+      }
+    }
+  ]
+}

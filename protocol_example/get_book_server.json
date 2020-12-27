@@ -1,0 +1,40 @@
+{
+  "examples": [
+    {
+      "type": "get_book_single",
+      "data": {
+        "status": "ok",
+        "type": "get_book_single",
+        "content": {
+          "book_id": 1,
+          "name": "Book 1"
+        }
+      }
+    },
+    {
+      "type": "get_book_single",
+      "data": {
+        "status": "error",
+        "type": "book not exist",
+        "content": {}
+      }
+    },
+    {
+      "type": "get_book_all",
+      "data": {
+        "status": "ok",
+        "type": "get_book_all",
+        "content": [
+          {
+            "book_id": 1,
+            "name": "Book 1"
+          },
+          {
+            "book_id": 2,
+            "name": "Book 2"
+          }
+        ]
+      }
+    }
+  ]
+}

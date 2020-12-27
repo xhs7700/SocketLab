@@ -1,0 +1,8 @@
+{
+  "type": "change_psw",
+  "data": {
+    "uid": "xhs7700",
+    "old_psw": "12345678",
+    "new_psw": "123456789"
+  }
+}

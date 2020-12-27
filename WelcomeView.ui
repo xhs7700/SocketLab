@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>800</width>
+                <height>600</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                    <item>
+                        <widget class="QLabel" name="label">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <pointsize>11</pointsize>
+                                </font>
+                            </property>
+                            <property name="text">
+                                <string># Simple Reader -- Welcome</string>
+                            </property>
+                            <property name="textFormat">
+                                <enum>Qt::MarkdownText</enum>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignCenter</set>
+                            </property>
+                        </widget>
+                    </item>
+                    <item>
+                        <layout class="QHBoxLayout" name="horizontalLayout_2">
+                            <item>
+                                <widget class="QLabel" name="label_2">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                                            <horstretch>1</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>11</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="text">
+                                        <string>## Books</string>
+                                    </property>
+                                    <property name="textFormat">
+                                        <enum>Qt::MarkdownText</enum>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QLabel" name="label_3">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                                            <horstretch>3</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>11</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="text">
+                                        <string>## Synopsis</string>
+                                    </property>
+                                    <property name="textFormat">
+                                        <enum>Qt::MarkdownText</enum>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </item>
+                    <item>
+                        <layout class="QHBoxLayout" name="horizontalLayout">
+                            <item>
+                                <widget class="QListWidget" name="BookListWidget">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                            <horstretch>1</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>11</pointsize>
+                                        </font>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item>
+                                <widget class="QPlainTextEdit" name="SynopsisTextEdit">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                            <horstretch>3</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>11</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="readOnly">
+                                        <bool>true</bool>
+                                    </property>
+                                    <property name="plainText">
+                                        <string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed
+                                            ex sed sapien efficitur pretium quis in sapien. Vestibulum ante ipsum primis
+                                            in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque
+                                            aliquet metus lacus. Nulla eu mauris rhoncus sapien laoreet iaculis. Aliquam
+                                            iaculis facilisis justo tempor dapibus. Integer ultrices varius felis, a
+                                            interdum neque viverra nec. Proin elementum quam sem. Integer ut luctus
+                                            massa.
+
+                                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas
+                                            eleifend ullamcorper orci, a feugiat massa vulputate fermentum. Morbi
+                                            sollicitudin commodo lacus ut posuere. Sed sollicitudin posuere libero
+                                            condimentum laoreet. Cras rutrum arcu diam, non pellentesque sapien eleifend
+                                            sed. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
+                                            fringilla sem a nibh tincidunt maximus. Ut nisl justo, convallis sit amet
+                                            ligula quis, vulputate rhoncus felis. Curabitur tincidunt, elit ac facilisis
+                                            hendrerit, felis dui gravida sapien, suscipit semper ligula tortor at ante.
+                                            Phasellus eleifend risus felis, et auctor ex vestibulum viverra.
+
+                                            Praesent vel dapibus sem. Mauris non pulvinar lectus. Sed non dignissim
+                                            purus. Morbi non nulla sem. Nulla dapibus, erat nec laoreet molestie, sapien
+                                            ante rhoncus lorem, non auctor urna arcu at sapien. Pellentesque eget
+                                            posuere ante, non bibendum lorem. Sed euismod non magna eu rutrum. Ut
+                                            convallis quam arcu, in interdum massa egestas in. Cras sit amet erat velit.
+                                            In feugiat felis vitae metus cursus, id porttitor odio pellentesque. Proin
+                                            dictum metus eget tempor tempus. Sed et congue nunc, et tempus ligula. Cras
+                                            sed ultrices ex. In quis odio nec erat volutpat consectetur. Proin sed
+                                            lectus efficitur, cursus lectus rhoncus, commodo nunc.
+
+                                            Donec molestie libero non sem condimentum, vel blandit ligula elementum.
+                                            Donec at augue tristique, hendrerit enim vitae, placerat augue. Phasellus et
+                                            efficitur nisl, non suscipit turpis. Integer vestibulum neque a sem
+                                            efficitur mollis. Cras maximus nibh et urna pulvinar iaculis. Nullam dapibus
+                                            dui nec massa venenatis, sed volutpat tellus mollis. Proin interdum leo sit
+                                            amet augue condimentum, non vestibulum metus accumsan.
+
+                                            Curabitur et odio ligula. Aliquam pulvinar consequat venenatis. Duis nec
+                                            posuere est. Pellentesque id lacinia lorem. In malesuada condimentum quam,
+                                            eget viverra nulla finibus non. Nunc in vestibulum ligula. Aliquam in ex
+                                            neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                            per inceptos himenaeos. Ut nisl eros, pretium nec leo id, ultrices placerat
+                                            dolor. Vestibulum porttitor, elit in interdum ultrices, metus sapien tempus
+                                            justo, non sodales ligula mauris sed nibh. Donec rutrum imperdiet ex, eget
+                                            egestas nunc maximus condimentum.
+
+                                        </string>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </item>
+                </layout>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>

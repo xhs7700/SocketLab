@@ -1,0 +1,23 @@
+{
+  "examples": [
+    {
+      "type": "del_bookmark_single",
+      "data": {
+        "bookmark_id": "1"
+      }
+    },
+    {
+      "type": "del_bookmark_user",
+      "data": {
+        "uid": "xhs7700"
+      }
+    },
+    {
+      "type": "del_bookmark_user_book",
+      "data": {
+        "uid": "xhs7700",
+        "book_id": "3"
+      }
+    }
+  ]
+}

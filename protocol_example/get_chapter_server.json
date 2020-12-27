@@ -1,0 +1,64 @@
+{
+  "examples": [
+    {
+      "type": "get_chapter_single",
+      "data": {
+        "status": "ok",
+        "type": "get_chapter_single",
+        "content": [
+          1,
+          "content of chapter1..."
+        ]
+      }
+    },
+    {
+      "type": "get_chapter_single",
+      "data": {
+        "status": "error",
+        "type": "book not exist/chapter not exist",
+        "content": [
+          -1,
+          ""
+        ]
+      }
+    },
+    {
+      "type": "get_chapter_all",
+      "data": {
+        "status": "ok",
+        "type": "get_chapter_all",
+        "content": [
+          [
+            1,
+            "content of chapter1..."
+          ],
+          [
+            2,
+            "content of chapter2..."
+          ]
+        ]
+      }
+    },
+    {
+      "type": "get_chapter_all",
+      "data": {
+        "status": "error",
+        "type": "book not exist",
+        "content": []
+      }
+    },
+    {
+      "type": "get_chapter_simple",
+      "data": {
+        "status": "ok",
+        "type": "get_chapter_simple",
+        "content": [
+          1,
+          2,
+          4,
+          6
+        ]
+      }
+    }
+  ]
+}

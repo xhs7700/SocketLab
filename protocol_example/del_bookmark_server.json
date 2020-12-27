@@ -1,0 +1,46 @@
+{
+  "examples": [
+    {
+      "type": "del_bookmark_single",
+      "data": {
+        "status": "ok",
+        "type": "del_bookmark_single"
+      }
+    },
+    {
+      "type": "del_bookmark_single",
+      "data": {
+        "status": "error",
+        "type": "bookmark not exist"
+      }
+    },
+    {
+      "type": "del_bookmark_user",
+      "data": {
+        "status": "ok",
+        "type": "del_bookmark_user"
+      }
+    },
+    {
+      "type": "del_bookmark_user",
+      "data": {
+        "status": "error",
+        "type": "user not exist"
+      }
+    },
+    {
+      "type": "del_bookmark_user_book",
+      "data": {
+        "status": "ok",
+        "type": "del_bookmark_user_book"
+      }
+    },
+    {
+      "type": "del_bookmark_user_book",
+      "data": {
+        "status": "error",
+        "type": "user not exist/book not exist"
+      }
+    }
+  ]
+}

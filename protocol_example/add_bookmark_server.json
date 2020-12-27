@@ -1,0 +1,18 @@
+{
+  "examples": [
+    {
+      "type": "add_bookmark",
+      "data": {
+        "status": "ok",
+        "type": "add_bookmark"
+      }
+    },
+    {
+      "type": "add_bookmark",
+      "data": {
+        "status": "error",
+        "type": "user not exist/book not exist/bookmark exist/chapter not exist"
+      }
+    }
+  ]
+}

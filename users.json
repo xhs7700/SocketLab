@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "xhs7700",
+      "psw": "1234567",
+      "email": "xhs7700@126.com"
+    },
+    {
+      "id": "18307130090",
+      "psw": "hahahaha",
+      "email": "hsxia18@fudan.edu.cn"
+    },
+    {
+      "id": "xhs8800",
+      "psw": "654321",
+      "email": ""
+    }
+  ]
+}

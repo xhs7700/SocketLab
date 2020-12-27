@@ -1,0 +1,18 @@
+{
+  "example": [
+    {
+      "type": "change_psw",
+      "data": {
+        "status": "ok",
+        "type": "change_psw"
+      }
+    },
+    {
+      "type": "change_psw",
+      "data": {
+        "status": "error",
+        "type": "wrong password/same password/user not exist"
+      }
+    }
+  ]
+}

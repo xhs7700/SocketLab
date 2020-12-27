@@ -1,0 +1,18 @@
+{
+  "examples": [
+    {
+      "type": "logout",
+      "data": {
+        "status": "ok",
+        "type": "logout"
+      }
+    },
+    {
+      "type": "logout",
+      "data": {
+        "status": "error",
+        "type": "already logout/user not existed"
+      }
+    }
+  ]
+}

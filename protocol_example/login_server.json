@@ -1,0 +1,18 @@
+{
+  "examples": [
+    {
+      "type": "login",
+      "data": {
+        "status": "ok",
+        "type": "login"
+      }
+    },
+    {
+      "type": "login",
+      "data": {
+        "status": "error",
+        "type": "user not existed/wrong password/already logined"
+      }
+    }
+  ]
+}

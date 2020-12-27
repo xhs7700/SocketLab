@@ -1,0 +1,14 @@
+{
+  "examples": [
+    {
+      "type": "get_book_single",
+      "data": {
+        "book_id": "1"
+      }
+    },
+    {
+      "type": "get_book_all",
+      "data": {}
+    }
+  ]
+}

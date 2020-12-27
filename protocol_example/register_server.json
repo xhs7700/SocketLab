@@ -1,0 +1,18 @@
+{
+  "examples": [
+    {
+      "type": "register",
+      "data": {
+        "status": "ok",
+        "type": "register"
+      }
+    },
+    {
+      "type": "register",
+      "data": {
+        "status": "error",
+        "type": "user existed/password cannot be null"
+      }
+    }
+  ]
+}
