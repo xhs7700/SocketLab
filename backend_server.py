@@ -25,7 +25,7 @@ def print_error_message(message: str, reason: str) -> None:
 
 def print_ok_message(message: str) -> None:
     tid = threading.current_thread().name
-    print(f'[{get_time()} {tid}] OK\t\t{message}')
+    print(f'[{get_time()} {tid}] OK\t{message}')
 
 
 def get_error_reply(data: dict, reason: str, message: str, content=None) -> bytes:
