@@ -115,7 +115,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def remove_RegisterView_signal(self):
         self.view.submit_button_signal.disconnect(self.toggle_view)
         self.view.display_status_signal.disconnect(self.display_status_message)
-        self.view.set_current_book_signal.disconnect(self.set_current_book)
 
     def add_WelcomeView_signal(self, old_view):
         self.view.select_book_signal.connect(self.toggle_view)
@@ -828,7 +827,8 @@ def socket_send(query: bytes) -> dict:
     client_socket = socket(AF_INET, SOCK_STREAM)
     client_socket.connect((server_name, server_port))
     client_socket.send(query)
-    recv_data = client_socket.recv(1024 * 1024).decode(encoding='utf-8')
+    tmp = client_socket.recv(1024 * 1024)
+    recv_data = tmp.decode(encoding='utf-8')
     client_socket.close()
     reply = json.loads(recv_data)
     return reply
