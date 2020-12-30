@@ -633,7 +633,7 @@ class ContentView(QWidget, ContentForm):
 
         self.refresh(b_id, chap_id, page_num)
 
-    def refresh(self, b_id, chap_id, page_num):
+    def refresh(self, b_id, chap_id, page_num=None):
         self.b_id = b_id
         self.chap_id = chap_id
         self.page_num = page_num
